@@ -5,15 +5,8 @@
 | Componente Curricular: | Arquitetura de Software | Professor:   | Alessandro Borges de Morais               |
 |------------------------|-------------------------|--------------|-------------------------------------------|
 | Curso:                 | [ADS](https://www.iesb.br/cursos/analise-e-desenvolvimento-de-sistemas/) | Integrantes: | [@Sérgio Silva](https://github.com/sergiobslva-iesb), [@Sarah Evelyn](https://github.com/SarahDevIesb), [@Rhuan Justino](https://github.com/RhuanJSouza) |
-=-y ]
 
-
-
-
-
-
-
-fala ae| **PokeDex**                                                                                                                                                                                                                                                  |
+| **PokeDex**                                                                                                                                                                                                                                                  |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Uma Pokédex em JavaScript é uma aplicação de software que cataloga informações sobre Pokémon.  Ela utiliza JavaScript para criar uma interface interativa que permite aos usuários buscar, visualizar e explorar dados sobre diferentes espécies de Pokémon.  Essa aplicação pode obter dados de uma API externa ou de um banco de dados local e os exibe de forma organizada, incluindo detalhes como nome, imagem, tipo, habilidades e estatísticas de cada Pokémon. |
 
@@ -30,18 +23,18 @@ fala ae| **PokeDex**                                                            
 
 ## O que é o Projeto
 A proposta deste projeto é criar a documentação do projeto Pokedex, com o objetivo que estes documentos sirvam de insumo para o desenvolvimento de uma aplicação real e a partir destes diagramas da UML um código do produto seja implementável. Os diagramas esperados para esta documentação são:
-- [ ] Diagrama de Caso de Uso (sem a documentação)
+- [ ] Diagramas de Caso de Uso (sem a documentação)
 - [ ] Requisitos
     - [ ] Funcionais
     - [ ] Não-Funcionais
-- [ ] Diagrama de Componentes
-- [ ] Diagrama de Sequência
+- [ ] Diagramas de Componentes
+- [ ] Diagramas de Sequência
 - [ ] Arquétipos
 - [ ] Construção de API (Código e Documentação) 
 
 ## Requisitos do Sistema
 
-### Casos de Us
+### Casos de Uso
 ![Diagrama de Caso de Uso de Login V1](https://github.com/ADS035-Metricas-e-Arquitetura-de-Soft/documento-requisitos/blob/main/caso-de-uso-login-v1.svg)
 
 ### Script de Caso de Uso [PlantUML](https://www.plantuml.com/plantuml/uml/SyfFKj2rKt3CoKnELR1Io4ZDoSa70000)
