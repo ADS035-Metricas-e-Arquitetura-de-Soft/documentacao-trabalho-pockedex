@@ -34,6 +34,31 @@ A proposta deste projeto é criar a documentação do projeto Pokedex, com o obj
 
 ## Requisitos do Sistema
 
+### Lista de Artefatos
+
+- [ ] [Diagramas de Caso de Uso (sem a documentação)]()
+- [ ] [Requisitos]()
+- [ ] [Diagramas de Componentes]()
+- [ ] [Diagramas de Sequência]()
+- [ ] [Arquétipos]()
+- [ ] [Construção de API (Código e Documentação)]() 
+
+
+### Lista de Casos de Uso da Pokedex
+- [ ] Manter Pokemon
+    - [ ] Inserir Pokemon (?)
+    - [ ] Pesquisar Pokemon
+    - [ ] Listar Pokemon
+- [ ] Validar respostas da API (?)
+- [ ] Caso de Uso V
+- [ ] Caso de Uso VI
+- [ ] Caso de Uso VII
+- [ ] Caso de Uso VIII
+- [ ] Caso de Uso IX
+- [ ] Caso de Uso X
+- [ ] Caso de Uso XI
+- [ ] Caso de Uso XII
+
 ### Casos de Uso
 ![Diagrama de Caso de Uso de Login V1](https://github.com/ADS035-Metricas-e-Arquitetura-de-Soft/documento-requisitos/blob/main/caso-de-uso-login-v1.svg)
 
