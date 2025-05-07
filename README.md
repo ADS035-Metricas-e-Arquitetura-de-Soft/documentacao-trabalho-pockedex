@@ -41,7 +41,7 @@ A proposta deste projeto é criar a documentação do projeto Pokedex, com o obj
 - [ ] [Diagramas de Componentes]()
 - [ ] [Diagramas de Sequência]()
 - [ ] [Arquétipos]()
-- [ ] [Construção de API (Código e Documentação)]() 
+- [ ] [Construção de API (Código e Documentação)](https://github.com/ADS035-Metricas-e-Arquitetura-de-Soft/documentacao-trabalho-pockedex/tree/main/artefatos/API.md) 
 
 
 ### Lista de Casos de Uso da Pokedex
