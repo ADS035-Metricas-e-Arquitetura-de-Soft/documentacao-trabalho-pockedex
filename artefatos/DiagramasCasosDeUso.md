@@ -1,4 +1,4 @@
-# CASOS DE USO
+# DIAGRAMAS DE CASOS DE USO
 
 ## Diagramas de Caso de Uso
 
