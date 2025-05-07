@@ -36,7 +36,7 @@ A proposta deste projeto é criar a documentação do projeto Pokedex, com o obj
 
 ### Lista de Artefatos
 
-- [ ] [Diagramas de Caso de Uso (sem a documentação)](https://github.com/ADS035-Metricas-e-Arquitetura-de-Soft/documentacao-trabalho-pockedex/tree/main/artefatos/DiagramasCasoDeUso.md)
+- [ ] [Diagramas de Caso de Uso (sem a documentação)](https://github.com/ADS035-Metricas-e-Arquitetura-de-Soft/documentacao-trabalho-pockedex/tree/main/artefatos/DiagramasCasosDeUso.md)
 - [ ] [Requisitos]()
 - [ ] [Diagramas de Componentes]()
 - [ ] [Diagramas de Sequência]()
