@@ -1,7 +1,5 @@
 # DIAGRAMAS DE CASOS DE USO
 
-## Diagramas de Caso de Uso
-
 ### Lista de Casos de Uso da Pokedex
 - [ ] Manter Pokemon
     - [ ] Inserir Pokemon (?)
