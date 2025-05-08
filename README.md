@@ -14,7 +14,7 @@
 [Como criar uma Pokedex com HTML, CSS e JavaScript | Projeto Completo](https://www.youtube.com/watch?v=SjtdH3dWLa8)
 
 ## Roteiro do Projeto
-[Projeto 2 I Projeto de Arquitetura de Software - 2025](https://classroom.google.com/u/1/c/NzQ2MDU2ODQwMjU5/m/Nzc4MTYxMzU3NDQ5/details)
+[Projeto 2 I Projeto de Arquitetura de Software - 2025](https://drive.google.com/file/d/1It5Ti0pBOeCnQNdt8DsQM9URBVZjOZw9/view?usp=drive_link)
 
 ## Pokedex em Javascript
 [Escopo Completo - Repositório do Projeto de Métricas e Arquitetura de Software](https://github.com/ADS035-Metricas-e-Arquitetura-de-Soft/documentacao-trabalho-pockedex/)
