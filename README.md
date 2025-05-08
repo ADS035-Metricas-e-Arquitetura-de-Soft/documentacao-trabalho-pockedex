@@ -41,9 +41,9 @@ A proposta deste projeto é criar a documentação do projeto Pokedex, com o obj
 ### Lista de Artefatos
 
 - [ ] [Diagramas de Caso de Uso (sem a documentação)](https://github.com/ADS035-Metricas-e-Arquitetura-de-Soft/documentacao-trabalho-pockedex/tree/main/artefatos/DiagramasCasosDeUso.md)
-- [ ] [Requisitos]()
-- [ ] [Diagramas de Componentes]()
-- [ ] [Diagramas de Sequência]()
-- [ ] [Arquétipos]()
+- [ ] [Requisitos](https://github.com/ADS035-Metricas-e-Arquitetura-de-Soft/documentacao-trabalho-pockedex/blob/main/artefatos/Requisitos.md)
+- [ ] [Diagramas de Componentes](https://github.com/ADS035-Metricas-e-Arquitetura-de-Soft/documentacao-trabalho-pockedex/blob/main/artefatos/API.md)
+- [ ] [Diagramas de Sequência](https://github.com/ADS035-Metricas-e-Arquitetura-de-Soft/documentacao-trabalho-pockedex/blob/main/artefatos/DiagramasDeSequencia.md)
+- [ ] [Arquétipos](https://github.com/ADS035-Metricas-e-Arquitetura-de-Soft/documentacao-trabalho-pockedex/blob/main/artefatos/Arquetipos.md)
 - [ ] [Construção de API (Código e Documentação)](https://github.com/ADS035-Metricas-e-Arquitetura-de-Soft/documentacao-trabalho-pockedex/tree/main/artefatos/API.md)
-- [ ] [BPMN]()
+- [ ] [BPMN](https://github.com/ADS035-Metricas-e-Arquitetura-de-Soft/documentacao-trabalho-pockedex/blob/main/artefatos/BPMN.md)
