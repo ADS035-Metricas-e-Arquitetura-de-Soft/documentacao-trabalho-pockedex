@@ -13,30 +13,43 @@
 
 #### RF 1.  Inserir Pokemon
 
-* O sistema deve permitir que um usuário existente faça login fornecendo suas credenciais (usuário e senha).
-* O sistema deve verificar as credenciais fornecidas com as armazenadas no banco de dados.
-* O sistema deve conceder acesso ao usuário se as credenciais forem válidas.
-* O sistema deve exibir uma mensagem de erro se as credenciais forem inválidas.
+##### DESCRIÇÃO: O sistema deve permitir que o usuário cadastre novos Pokémon no sistema, fornecendo as informações necessárias sobre o Pokémon.
+##### DESCRIÇÃO: O sistema deve permitir que o usuário cadastre novos Pokémon no sistema, fornecendo as informações necessárias sobre o Pokémon.
 
-#### RC 1. O sistema deve oferecer a opção de "lembrar-me" para manter o usuário logado por um período estendido.
+* O sistema deve apresentar um formulário de inserção que permita ao usuário fornecer os dados do Pokémon.
+* O formulário deve incluir campos para:
+  * Nome do Pokémon
+  * Tipo(s) do Pokémon
+  * Atributos do Pokémon (e.g., HP, Ataque, Defesa, Velocidade)
+  * Habilidades do Pokémon
+  * Imagem do Pokémon (opcional)
+* O sistema deve validar os dados fornecidos pelo usuário antes de salvar o Pokémon. As validações devem incluir:
+  * Verificar se o nome do Pokémon é único.
+  * Verificar se os tipos do Pokémon são válidos (pertencem a uma lista predefinida).
+  * Verificar se os valores dos atributos estão dentro de um intervalo válido.
+  * Verificar se a imagem (se fornecida) está em um formato válido.
+  * Se os dados forem válidos, o sistema deve salvar as informações do Pokémon no banco de dados.
+* Após a inserção bem-sucedida, o sistema deve exibir uma mensagem de confirmação ao usuário.
+* Se ocorrerem erros durante a inserção, o sistema deve exibir mensagens de erro claras e informativas ao usuário, indicando os campos que contêm erros e a natureza dos erros.
 
-- [x] [![Faculdade Badge](https://img.shields.io/badge/-PRÉ_CONDIÇÕES-gold)]() O usuário deve ter uma conta registrada no sistema.
-- [x] [![Faculdade Badge](https://img.shields.io/badge/-PÓS_CONDIÇÕES-red)]() O sistema deve estabelecer uma sessão para o usuário autenticado.
+
+#### RC 1. O sistema deve fornecer uma lista de seleção para os tipos de Pokémon, permitindo que o usuário escolha entre os tipos válidos.
+#### RC 2. O sistema deve permitir que o usuário visualize uma prévia da imagem antes de salvar o Pokémon.
+#### RC 3. O sistema deve fornecer mensagens de erro detalhadas que expliquem como corrigir cada erro de validação.
+
+- [x] [![Faculdade Badge](https://img.shields.io/badge/-PRÉ_CONDIÇÕES-gold)]() O usuário deve estar autenticado no sistema e ter permissão para inserir Pokémon.
+- [x] [![Faculdade Badge](https://img.shields.io/badge/-PÓS_CONDIÇÕES-red)]() O Pokémon deve ser armazenado no banco de dados.
+- [x] [![Faculdade Badge](https://img.shields.io/badge/-PÓS_CONDIÇÕES-red)]() O sistema deve exibir uma mensagem de confirmação ou erro ao usuário.
 
 ### Fluxo Principal (Sucesso) [RF1]
 
-1) O Usuário acessa a tela de login do sistema.
-2) O sistema exibe os campos para inserir o nome de usuário (ou e-mail) e a senha.
-3) O Usuário insere seu nome de usuário (ou e-mail) e senha.
-4) O Usuário solicita a autenticação (clica em "Entrar", "Login", etc.).
-5) O sistema recebe as credenciais fornecidas.
-6) O sistema verifica se o nome de usuário (ou e-mail) existe na base de dados.
-7) O sistema recupera a senha associada ao nome de usuário (ou e-mail).
-8) O sistema compara a senha fornecida com a senha armazenada (geralmente após aplicar alguma forma de hash e salt).
-9) Se as credenciais forem válidas:
-a) O sistema autentica o usuário.
-b) O sistema inicia uma sessão para o usuário.
-c) O sistema redireciona o usuário para a página principal ou para a página solicitada.
+1) O usuário inicia o processo de inserção de um novo Pokémon no sistema.
+2) Exibição do Formulário: O sistema exibe o formulário de inserção, contendo os campos necessários para coletar as informações do Pokémon (nome, tipo, atributos, etc.).
+3) Preenchimento do Formulário: O usuário preenche todos os campos obrigatórios e opcionais do formulário com os dados do Pokémon.
+4) Validação dos Dados: O sistema valida os dados inseridos pelo usuário, verificando se atendem aos critérios de validação predefinidos (unicidade do nome, tipos válidos, intervalos de atributos, etc.).
+5) Salvamento do Pokémon: Se os dados forem considerados válidos, o sistema salva as informações do Pokémon no banco de dados.
+6) Confirmação de Sucesso: O sistema exibe uma mensagem de confirmação ao usuário, indicando que o Pokémon foi inserido com sucesso.
+7) Fim do Caso de Uso: O caso de uso é concluído. O sistema pode retornar à tela anterior ou exibir a lista de Pokémon.
 
 #### Fluxo Alternativo
 
