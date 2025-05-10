@@ -11,7 +11,7 @@
 
 ### Requisitos Funcionais
 
-#### RF 1.  Autenticar Usuário
+#### RF 1.  Inserir Pokemon
 
 * O sistema deve permitir que um usuário existente faça login fornecendo suas credenciais (usuário e senha).
 * O sistema deve verificar as credenciais fornecidas com as armazenadas no banco de dados.
@@ -57,7 +57,7 @@ c) O sistema redireciona o usuário para a página principal ou para a página s
 * O login é negado.
 
 
-#### RF 2. Recuperar Senha
+#### RF 2. Pesquisar Pokemon
 
 * O sistema deve permitir que o usuário solicite a recuperação de senha.
 * O sistema deve solicitar um identificador do usuário (ex: e-mail, nome de usuário).
@@ -70,7 +70,7 @@ c) O sistema redireciona o usuário para a página principal ou para a página s
 - [x] [![Faculdade Badge](https://img.shields.io/badge/-PÓS_CONDIÇÕES-red)]() O sistema deve permitir que o usuário defina uma nova senha.
 
 
-#### RF 3. Bloquear Conta
+#### RF 3. Listar Pokemon
 
 * O sistema deve bloquear a conta do usuário após um número configurável de tentativas de login inválidas.
 * O sistema deve informar ao usuário que a conta foi bloqueada e o tempo para desbloqueio ou o procedimento para desbloqueá-la.
@@ -81,7 +81,7 @@ c) O sistema redireciona o usuário para a página principal ou para a página s
 - [x] [![Faculdade Badge](https://img.shields.io/badge/-PÓS_CONDIÇÕES-red)]() O usuário deve ter inserido credenciais incorretas um número específico de vezes.
 
 
-#### RF 4. Logout
+#### RF 4. Visualizar Pokémon
 
 * O sistema deve permitir que o usuário faça logout da sua sessão.
 * O sistema deve invalidar a sessão do usuário após o logout.
