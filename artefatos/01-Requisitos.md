@@ -110,9 +110,9 @@
 * O sistema deve fornecer sugestões de pesquisa enquanto o usuário digita os critérios (autocomplete), ajudando a encontrar Pokémon com nomes semelhantes ou a corrigir erros de digitação.
 
 
-- [x] [![Faculdade Badge](https://img.shields.io/badge/-PRÉ_CONDIÇÕES-gold)]() O sistema deve conter dados de Pokémon para serem pesquisados.
-- [x] [![Faculdade Badge](https://img.shields.io/badge/-PRÉ_CONDIÇÕES-gold)]() O usuário deve ter acesso à funcionalidade de pesquisa.
-- [x] [![Faculdade Badge](https://img.shields.io/badge/-PÓS_CONDIÇÕES-red)]() O sistema exibe os resultados da pesquisa ao usuário, ou uma mensagem informando que nenhum resultado foi encontrado.
+[![Faculdade Badge](https://img.shields.io/badge/-PRÉ_CONDIÇÕES-gold)]() O sistema deve conter dados de Pokémon para serem pesquisados.
+[![Faculdade Badge](https://img.shields.io/badge/-PRÉ_CONDIÇÕES-gold)]() O usuário deve ter acesso à funcionalidade de pesquisa.
+[![Faculdade Badge](https://img.shields.io/badge/-PÓS_CONDIÇÕES-red)]() O sistema exibe os resultados da pesquisa ao usuário, ou uma mensagem informando que nenhum resultado foi encontrado.
 
 
 #### RF 3. Listar Pokemon
