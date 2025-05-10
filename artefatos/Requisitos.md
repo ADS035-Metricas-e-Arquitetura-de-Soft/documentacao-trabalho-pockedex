@@ -10,7 +10,6 @@
 * RC - `Requisito Complementar`
 
 ### Requisitos Funcionais
-
 #### RF 1.  Inserir Pokemon
 
 ##### DESCRIÇÃO: O sistema deve permitir que o usuário cadastre novos Pokémon no sistema, fornecendo as informações necessárias sobre o Pokémon.
@@ -83,16 +82,37 @@
 
 
 #### RF 2. Pesquisar Pokemon
+##### DESCRIÇÃO: O sistema deve permitir que o usuário busque Pokémon existentes no sistema com base em diferentes critérios.
 
-* O sistema deve permitir que o usuário solicite a recuperação de senha.
-* O sistema deve solicitar um identificador do usuário (ex: e-mail, nome de usuário).
-* O sistema deve enviar um link ou código de recuperação para o identificador fornecido.
-* O sistema deve permitir que o usuário defina uma nova senha após a verificação do link/código.
+* O sistema deve fornecer uma interface de pesquisa que permita ao usuário inserir os critérios de busca.
+* Os critérios de busca devem incluir pelo menos:
+ * Nome do Pokémon
+ * Tipo do Pokémon
+* O sistema pode oferecer critérios de busca adicionais, como:
+ * Número da Pokédex
+ * Habilidade
+* O sistema deve realizar a busca no banco de dados com base nos critérios fornecidos.
+* O sistema deve exibir os resultados da pesquisa ao usuário.
+* Se a pesquisa retornar múltiplos resultados, o sistema deve apresentar os resultados em um formato paginado ou rolável.
+* Se a pesquisa não retornar resultados, o sistema deve exibir uma mensagem apropriada ao usuário.
 
-#### RC 4. O sistema deve implementar medidas de segurança para prevenir o uso indevido da funcionalidade de recuperação de senha (e.g., limitação de tentativas). 
+#### RC 4. Ordenação dos Resultados
+* O sistema deve permitir que o usuário ordene os resultados da pesquisa por diferentes critérios (e.g., nome, número da Pokédex).
+* O sistema deve fornecer opções para ordenação ascendente e descendente.
+  
+#### RC 5. Filtragem dos Resultados
+* O sistema deve permitir que o usuário refine os resultados da pesquisa aplicando filtros adicionais (e.g., filtrar por um subconjunto de tipos, filtrar por geração).
 
-- [x] [![Faculdade Badge](https://img.shields.io/badge/-PRÉ_CONDIÇÕES-gold)]() O usuário deve ter uma conta registrada no sistema com um e-mail válido associado.
-- [x] [![Faculdade Badge](https://img.shields.io/badge/-PÓS_CONDIÇÕES-red)]() O sistema deve permitir que o usuário defina uma nova senha.
+#### RC 6. Exibição Detalhada na Lista
+* Além do nome, a lista de resultados da pesquisa deve exibir informações adicionais resumidas sobre cada Pokémon (e.g., uma pequena imagem, o tipo primário).
+
+#### RC 7. Sugestões de Pesquisa
+* O sistema deve fornecer sugestões de pesquisa enquanto o usuário digita os critérios (autocomplete), ajudando a encontrar Pokémon com nomes semelhantes ou a corrigir erros de digitação.
+
+
+- [x] [![Faculdade Badge](https://img.shields.io/badge/-PRÉ_CONDIÇÕES-gold)]() O sistema deve conter dados de Pokémon para serem pesquisados.
+- [x] [![Faculdade Badge](https://img.shields.io/badge/-PRÉ_CONDIÇÕES-gold)]() O usuário deve ter acesso à funcionalidade de pesquisa.
+- [x] [![Faculdade Badge](https://img.shields.io/badge/-PÓS_CONDIÇÕES-red)]() O sistema exibe os resultados da pesquisa ao usuário, ou uma mensagem informando que nenhum resultado foi encontrado.
 
 
 #### RF 3. Listar Pokemon
