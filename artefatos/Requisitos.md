@@ -53,21 +53,34 @@
 
 #### Fluxo Alternativo
 
-##### 1a. Credenciais Inválidas:
-* No passo 9 do fluxo principal, se o nome de usuário (ou e-mail) não for encontrado ou a senha fornecida não corresponder à senha armazenada:
-* O sistema inclui o caso de uso "Exibir Mensagens de Erro" com uma mensagem indicando que as credenciais são inválidas (por exemplo, "Nome de usuário ou senha incorretos.").
-* O sistema pode permitir que o usuário tente novamente.
-* O sistema pode registrar a tentativa de login falhada.
+##### 1a. Dados Inválidos:
+* O usuário preenche o formulário de inserção.
+* O sistema valida os dados inseridos.
+* O sistema identifica um ou mais erros de validação.
+* O sistema exibe uma mensagem de erro ao usuário, indicando quais campos contêm erros e a natureza dos erros.
+* O sistema mantém o usuário no formulário de inserção, permitindo que ele corrija os dados.
+* O caso de uso retorna ao passo em que o usuário preenche o formulário (ou um passo anterior, dependendo da implementação).
 
-##### 1b. Conta Inativa:
-* No passo 9 do fluxo principal, se o nome de usuário (ou e-mail) for encontrado, mas a conta do usuário estiver inativa (por exemplo, não verificada, suspensa):
-* O sistema inclui o caso de uso "Exibir Mensagens de Erro" com uma mensagem informando que a conta está inativa e, se aplicável, as instruções para ativá-la.
-* O login é negado.
+##### 1b. Cancelamento da Inserção:
+* O usuário inicia o processo de inserção.
+* O sistema exibe o formulário de inserção.
+* O usuário decide cancelar a inserção.
+* O sistema abandona o processo de inserção e retorna à tela anterior (ou a um menu principal).
 
-##### 1c. Conta Bloqueada:
-* Este fluxo é uma extensão do fluxo principal, acionado pelo caso de uso "Bloquear Conta". Se a conta do usuário estiver bloqueada devido a múltiplas tentativas de login falhadas:
-* O sistema inclui o caso de uso "Exibir Mensagens de Erro" com uma mensagem informando que a conta está bloqueada e o tempo restante para o desbloqueio ou as instruções para desbloqueá-la (por exemplo, através da recuperação de senha).
-* O login é negado.
+##### 1c. Erro de Sistema ao Salvar:
+* O usuário preenche o formulário de inserção.
+* O sistema valida os dados inseridos.
+* Os dados são considerados válidos.
+* O sistema encontra um erro ao tentar salvar o Pokémon no banco de dados (e.g., falha de conexão, erro de banco de dados).
+* O sistema exibe uma mensagem de erro ao usuário, indicando que não foi possível salvar o Pokémon.
+* O sistema pode oferecer opções para o usuário tentar novamente ou cancelar a operação.
+
+* ##### 1c. Tempo Expirado da Sessão:
+* O usuário inicia o processo de inserção.
+* O sistema exibe o formulário de inserção.
+* O usuário demora muito para preencher o formulário.
+* A sessão do usuário expira.
+* O sistema redireciona o usuário para a tela de login ou exibe uma mensagem informando sobre a expiração da sessão.
 
 
 #### RF 2. Pesquisar Pokemon
