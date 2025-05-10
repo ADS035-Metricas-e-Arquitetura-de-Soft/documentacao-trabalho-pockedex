@@ -4,7 +4,7 @@
 
 | Componente Curricular: | Arquitetura de Software | Professor:   | Alessandro Borges de Morais               |
 |------------------------|-------------------------|--------------|-------------------------------------------|
-| Curso:                 | [ADS](https://www.iesb.br/cursos/analise-e-desenvolvimento-de-sistemas/) | Integrantes: | [@Sérgio Silva](https://github.com/sergiobslva-iesb), [@Sarah Evelyn](https://github.com/SarahDevIesb), [@Rhuan Justino](https://github.com/RhuanJSouza) |
+| Curso:                 | [ADS](https://www.iesb.br/cursos/analise-e-desenvolvimento-de-sistemas/) | Aluno: | [@Sérgio Silva - 24114290137](https://github.com/sergiobslva-iesb) |
 
 | **PokeDex**                                                                                                                                                                                                                                                  |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -20,7 +20,7 @@
 [Escopo Completo - Repositório do Projeto de Métricas e Arquitetura de Software](https://github.com/ADS035-Metricas-e-Arquitetura-de-Soft/documentacao-trabalho-pockedex/)
 
 ## Slide da Apresentação
-[Slide da Apresentação - Gestão de Barbearias]()
+[Slide da Apresentação - Pokedex]()
 
 ---
 
