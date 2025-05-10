@@ -81,7 +81,7 @@
 * O sistema redireciona o usuário para a tela de login ou exibe uma mensagem informando sobre a expiração da sessão.
 
 
-#### RF 2. Pesquisar Pokemon
+#### RF 2. Pesquisar Pokémon
 ##### DESCRIÇÃO: O sistema deve permitir que o usuário busque Pokémon existentes no sistema com base em diferentes critérios.
 
 * O sistema deve fornecer uma interface de pesquisa que permita ao usuário inserir os critérios de busca.
@@ -137,15 +137,6 @@
 - [x] [![Faculdade Badge](https://img.shields.io/badge/-PÓS_CONDIÇÕES-red)]() O sistema deve impedir o acesso à conta até que o bloqueio seja removido.
 
 
-#### RF 5. Exibir Mensagens de Erro
-
-* O sistema deve exibir mensagens de erro claras e informativas para falhas de login (e.g., credenciais inválidas, conta bloqueada). 
-
-#### RC 12. As mensagens de erro devem ser localizadas para diferentes idiomas.
-
-- [x] [![Faculdade Badge](https://img.shields.io/badge/-PRÉ_CONDIÇÕES-gold)]() O usuário deve ter inserido credenciais inválidas.
-- [x] [![Faculdade Badge](https://img.shields.io/badge/-PÓS_CONDIÇÕES-red)]() O sistema deve permanecer na tela de login, aguardando novas tentativas ou ações do usuário.
-
 ### Requisitos Não Funcionais
 
 #### RNF 1. Design Responsivo (Usabilidade)
@@ -166,22 +157,6 @@
 * O sistema deve tratar erros de conexão com a API ou outras falhas de comunicação.
 * O sistema deve exibir mensagens de erro claras e compreensíveis para o usuário.
 
-
-#### RNF 3. Usabilidade
-
-##### DESCRIÇÃO: A interface de login deve ser acessível a usuários com deficiência visual (e.g., suporte a leitores de tela). 
-
-* A interface de login deve ser intuitiva e fácil de usar.
-* As mensagens de erro devem ser claras e informativas.
-* O sistema deve fornecer feedback visual ao usuário durante o processo de login.
-
-
-#### RNF 4. Manutenibilidade
-
-* O código do módulo de login deve ser modular e fácil de manter.
-* As configurações de segurança (ex: número de tentativas de login) devem ser facilmente configuráveis.
-
-#### RC 11. O sistema deve implementar mecanismos de redundância e failover para garantir a alta disponibilidade. 
 
 ### Regras de Negócio
 
@@ -224,18 +199,14 @@
 
 ## Artefatos Elaborados e Entregues
 ### Requisitos Funcionais
-- [x] RF 1 - Autenticar Usuário
-- [x] RF 2 - Recuperar Senha
-- [x] RF 3 - Bloquear Conta
-- [x] RF 4 - Logout
-- [x] RF 5 - Exibir Mensagens de Erro
+- [x] RF 1 - Inserir Pokémon
+- [x] RF 2 - Pesquisar Pokémon
+- [x] RF 3 - Listar Pokémon
+- [x] RF 4 - Visualizar Pokémon
 
 ### Requisitos Não-Funcionais
-- [x] RNF 1 - Segurança
-- [x] RNF 2 - Desempenho
-- [x] RNF 3 - Usabilidade
-- [x] RNF 4 - Manutenibilidade
-- [x] RNF 5 - Confiabilidade
+- [x] RNF 1 - Design Responsivo (Usabilidade)
+- [x] RNF 2 - Tratamento de Erros (Confiabilidade)
 
 ### Regras de Negócio
 - [x] RGN 1 - Formato das Credenciais
