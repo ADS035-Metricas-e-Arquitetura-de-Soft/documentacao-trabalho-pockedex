@@ -13,7 +13,7 @@
 
 ### Casos de Uso Geral
 
-![Diagrama de Caso de Uso Geral]([https://assets.digitalocean.com/articles/alligator/boo.svg](https://github.com/ADS035-Metricas-e-Arquitetura-de-Soft/documentacao-trabalho-pockedex/tree/main/artefatos/img#:~:text=..-,01%2Dcaso%2Dde%2Duso%2Dgeral%2Dpokedex.svg,-Inserindo%20estrutura%20para))
+![Diagrama de Caso de Uso Geral](./img/01-caso-de-uso-geral-pokedex.svg))
 
 ### Script de Caso de Uso Geral [PlantUML]()
     @startuml
