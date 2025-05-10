@@ -1,6 +1,7 @@
 # TRABALHO / DOCUMENTAÇÃO POKEDEX
 
 ## Projeto 2 - Artefatos de UML / 2025
+### Período da Semana de Entrega: de [26/05/2025 até 30/05/2025](https://meet.google.com/opk-tghr-txh)
 
 | Componente Curricular: | Arquitetura de Software | Professor:   | Alessandro Borges de Morais               |
 |------------------------|-------------------------|--------------|-------------------------------------------|
