@@ -41,7 +41,7 @@
 - [x] [![Faculdade Badge](https://img.shields.io/badge/-PÓS_CONDIÇÕES-red)]() O Pokémon deve ser armazenado no banco de dados.
 - [x] [![Faculdade Badge](https://img.shields.io/badge/-PÓS_CONDIÇÕES-red)]() O sistema deve exibir uma mensagem de confirmação ou erro ao usuário.
 
-### Fluxo Principal (Sucesso) [RF1]
+#### Fluxo Principal (Sucesso) [RF1]
 
 1) O usuário inicia o processo de inserção de um novo Pokémon no sistema.
 2) Exibição do Formulário: O sistema exibe o formulário de inserção, contendo os campos necessários para coletar as informações do Pokémon (nome, tipo, atributos, etc.).
@@ -53,7 +53,7 @@
 
 #### Fluxo Alternativo
 
-##### 1a. Dados Inválidos:
+#### 1a. Dados Inválidos:
 * O usuário preenche o formulário de inserção.
 * O sistema valida os dados inseridos.
 * O sistema identifica um ou mais erros de validação.
@@ -75,7 +75,7 @@
 * O sistema exibe uma mensagem de erro ao usuário, indicando que não foi possível salvar o Pokémon.
 * O sistema pode oferecer opções para o usuário tentar novamente ou cancelar a operação.
 
-* ##### 1c. Tempo Expirado da Sessão:
+##### 1d. Tempo Expirado da Sessão:
 * O usuário inicia o processo de inserção.
 * O sistema exibe o formulário de inserção.
 * O usuário demora muito para preencher o formulário.
