@@ -20,7 +20,7 @@
 [Escopo Completo - Repositório do Projeto de Métricas e Arquitetura de Software](https://github.com/ADS035-Metricas-e-Arquitetura-de-Soft/documentacao-trabalho-pockedex/)
 
 ## Slide da Apresentação
-[Slide da Apresentação - Pokedex]()
+[Slide da Apresentação - Pokedex](https://www.figma.com/slides/kaHOcv1vBxDDWUir5rze62/apresentacao-pokedex-metricas-de-software?node-id=1-42&t=ikCpQG8OUzVsgdk1-1)
 
 ---
 
