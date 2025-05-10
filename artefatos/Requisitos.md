@@ -3,6 +3,12 @@
 ## Referência do Projeto
 [Como criar uma Pokedex com HTML, CSS e JavaScript | Projeto Completo](https://www.youtube.com/watch?v=SjtdH3dWLa8)
 
+## Legenda
+* RF - `Requisito Funcional`
+* RNF - `Requisito Não Funcional`
+* RGN - `Regra de Negócio`
+* RC - `Requisito Complementar`
+
 ### Requisitos Funcionais
 
 #### RF 1.  Autenticar Usuário
@@ -97,31 +103,32 @@ c) O sistema redireciona o usuário para a página principal ou para a página s
 
 ### Requisitos Não Funcionais
 
-#### RNF 1. Segurança
+#### RNF 1. Design Responsivo (Usabilidade)
 
-* As senhas devem ser armazenadas de forma segura (ex: criptografadas com bcrypt).
-* A comunicação entre o cliente e o servidor deve ser criptografada (HTTPS).
-* O sistema deve prevenir ataques de força bruta (ex: limitação de taxa de tentativas de login).
-* O sistema deve gerar logs de auditoria de tentativas de login (sucesso e falha).
+##### DESCRIÇÃO: A interface do usuário deve se adaptar a diferentes tamanhos e tipos de dispositivos.
 
-#### RC 1. O sistema deve realizar auditoria das tentativas de login, registrando informações como data, hora, nome de usuário e resultado da tentativa. 
+* O sistema deve garantir que a interface seja acessível em dispositivos móveis, tablets e desktops.
+* O sistema deve manter a usabilidade e a agradabilidade visual em diferentes resoluções de tela.
+* O sistema pode usar técnicas de design responsivo, como media queries em CSS.
 
 
-#### RNF 2. Desempenho
+#### RNF 2. Tratamento de Erros (Confiabilidade)
 
-* O tempo de resposta para o login deve ser inferior a 2 segundos.
-* O sistema deve suportar um número máximo de logins simultâneos (definir um número).
+##### DESCRIÇÃO: O sistema deve lidar com erros de forma adequada e fornecer feedback informativo ao usuário.
 
-#### RC 4. O sistema deve utilizar mecanismos de cache para otimizar o processo de autenticação. 
+* O sistema deve tratar a entrada inválida do usuário (e.g., pesquisa por um termo inexistente).
+* O sistema deve lidar com a situação em que um item procurado não existe (e.g., "Pokémon não encontrado").
+* O sistema deve tratar erros de conexão com a API ou outras falhas de comunicação.
+* O sistema deve exibir mensagens de erro claras e compreensíveis para o usuário.
 
 
 #### RNF 3. Usabilidade
 
+##### DESCRIÇÃO: A interface de login deve ser acessível a usuários com deficiência visual (e.g., suporte a leitores de tela). 
+
 * A interface de login deve ser intuitiva e fácil de usar.
 * As mensagens de erro devem ser claras e informativas.
 * O sistema deve fornecer feedback visual ao usuário durante o processo de login.
-
-#### RC 10. A interface de login deve ser acessível a usuários com deficiência visual (e.g., suporte a leitores de tela). 
 
 
 #### RNF 4. Manutenibilidade
@@ -191,9 +198,3 @@ c) O sistema redireciona o usuário para a página principal ou para a página s
 - [x] RGN 3 - Tempo de Bloqueio
 - [x] RGN 4 - Expiração da Senha
 - [x] RGN 5 - Integração com Outros Sistemas
-
-## Legenda
-* RF - `Requisito Funcional`
-* RNF - `Requisito Não Funcional`
-* RGN - `Regra de Negócio`
-* RC - `Requisito Complementar`
