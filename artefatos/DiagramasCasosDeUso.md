@@ -2,7 +2,7 @@
 
 ### Lista de Casos de Uso da Pokedex
 - [ ] Manter Pokemon
-    - [ ] Inserir Pokémon (?)
+    - [x] Inserir Pokémon (?)
     - [ ] Pesquisar Pokémon
     - [ ] Listar Pokémon
     - [ ] Visualizar Pokémon
