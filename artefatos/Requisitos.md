@@ -14,7 +14,6 @@
 #### RF 1.  Inserir Pokemon
 
 ##### DESCRIÇÃO: O sistema deve permitir que o usuário cadastre novos Pokémon no sistema, fornecendo as informações necessárias sobre o Pokémon.
-##### DESCRIÇÃO: O sistema deve permitir que o usuário cadastre novos Pokémon no sistema, fornecendo as informações necessárias sobre o Pokémon.
 
 * O sistema deve apresentar um formulário de inserção que permita ao usuário fornecer os dados do Pokémon.
 * O formulário deve incluir campos para:
