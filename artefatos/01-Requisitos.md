@@ -86,11 +86,11 @@
 
 * O sistema deve fornecer uma interface de pesquisa que permita ao usuário inserir os critérios de busca.
 * Os critérios de busca devem incluir pelo menos:
- * Nome do Pokémon
- * Tipo do Pokémon
+  * Nome do Pokémon
+  * Tipo do Pokémon
 * O sistema pode oferecer critérios de busca adicionais, como:
- * Número da Pokédex
- * Habilidade
+  * Número da Pokédex
+  * Habilidade
 * O sistema deve realizar a busca no banco de dados com base nos critérios fornecidos.
 * O sistema deve exibir os resultados da pesquisa ao usuário.
 * Se a pesquisa retornar múltiplos resultados, o sistema deve apresentar os resultados em um formato paginado ou rolável.
