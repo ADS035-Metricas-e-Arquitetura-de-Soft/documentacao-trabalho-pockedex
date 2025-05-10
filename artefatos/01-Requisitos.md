@@ -35,9 +35,9 @@
 #### RC 2. O sistema deve permitir que o usuário visualize uma prévia da imagem antes de salvar o Pokémon.
 #### RC 3. O sistema deve fornecer mensagens de erro detalhadas que expliquem como corrigir cada erro de validação.
 
-[![Faculdade Badge](https://img.shields.io/badge/-PRÉ_CONDIÇÕES-gold)]() O usuário deve estar autenticado no sistema e ter permissão para inserir Pokémon.
-[![Faculdade Badge](https://img.shields.io/badge/-PÓS_CONDIÇÕES-red)]() O Pokémon deve ser armazenado no banco de dados.
-[![Faculdade Badge](https://img.shields.io/badge/-PÓS_CONDIÇÕES-red)]() O sistema deve exibir uma mensagem de confirmação ou erro ao usuário.
+* [![Faculdade Badge](https://img.shields.io/badge/-PRÉ_CONDIÇÕES-gold)]() O usuário deve estar autenticado no sistema e ter permissão para inserir Pokémon.
+* [![Faculdade Badge](https://img.shields.io/badge/-PÓS_CONDIÇÕES-red)]() O Pokémon deve ser armazenado no banco de dados.
+* [![Faculdade Badge](https://img.shields.io/badge/-PÓS_CONDIÇÕES-red)]() O sistema deve exibir uma mensagem de confirmação ou erro ao usuário.
 
 #### Fluxo Principal (Sucesso) [RF1]
 
