@@ -22,7 +22,7 @@
 ![GitHub Badge](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=fff&style=flat) [Escopo Completo - Repositório do Projeto de Métricas e Arquitetura de Software](https://github.com/ADS035-Metricas-e-Arquitetura-de-Soft/documentacao-trabalho-pockedex/)
 
 ## Slide da Apresentação
-![Figma Badge](https://img.shields.io/badge/Figma-F24E1E?logo=figma&logoColor=fff&style=flat) [Slide da Apresentação - Pokedex](https://www.figma.com/slides/kaHOcv1vBxDDWUir5rze62/apresentacao-pokedex-metricas-de-software?node-id=1-42&t=ikCpQG8OUzVsgdk1-1)
+![Figma Badge](https://img.shields.io/badge/Figma-F24E1E?logo=figma&logoColor=fff&style=flat) [Slide da Apresentação - Pokedex](https://www.figma.com/deck/kaHOcv1vBxDDWUir5rze62/apresentacao-pokedex-metricas-de-software?node-id=1-128&viewport=-5723%2C-40%2C0.52&t=Enw2uIN9WTm7LiD8-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1)
 
 ---
 
