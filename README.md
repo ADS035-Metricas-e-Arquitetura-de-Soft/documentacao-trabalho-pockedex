@@ -15,9 +15,6 @@
 ![Pokédex YouTube](./artefatos/img/pokedex.yt.png)
 ![YouTube Badge](https://img.shields.io/badge/YouTube-F00?logo=youtube&logoColor=fff&style=flat) [Como criar uma Pokedex com HTML, CSS e JavaScript | Projeto Completo](https://www.youtube.com/watch?v=SjtdH3dWLa8)
 
-## Referência do Projeto
-[Como criar uma Pokedex com HTML, CSS e JavaScript | Projeto Completo](https://www.youtube.com/watch?v=SjtdH3dWLa8)
-
 ## Roteiro do Projeto
 [Projeto 2 I Projeto de Arquitetura de Software - 2025](https://drive.google.com/file/d/1It5Ti0pBOeCnQNdt8DsQM9URBVZjOZw9/view?usp=drive_link)
 
