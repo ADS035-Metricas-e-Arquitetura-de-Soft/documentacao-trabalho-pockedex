@@ -28,15 +28,17 @@
 
 ## O que é o Projeto
 A proposta deste projeto é criar a documentação do projeto Pokedex, com o objetivo que estes documentos sirvam de insumo para o desenvolvimento de uma aplicação real e a partir destes diagramas da UML um código do produto seja implementável. Os diagramas esperados para esta documentação são:
-- [ ] Diagramas de Caso de Uso (sem a documentação)
-- [ ] Requisitos
+- [ ] 01-Requisitos
     - [ ] Funcionais
     - [ ] Não-Funcionais
-- [ ] Diagramas de Componentes
-- [ ] Diagramas de Sequência
-- [ ] Arquétipos
-- [ ] Construção de API (Código e Documentação)
-- [ ] BPMN
+- [ ] 02-Definição de Componentes
+- [ ] 03-Diagrama Arquitetural
+- [ ] 04-Arquétipos
+- [ ] 05-Diagramas de Caso de Uso (sem a documentação)
+- [ ] 06-Diagramas de Componentes
+- [ ] 07-Diagramas de Sequência
+- [ ] 08-Construção de API (Código e Documentação)
+- [ ] 09-BPMN
 
 ## Requisitos do Sistema
 
