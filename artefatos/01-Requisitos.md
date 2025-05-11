@@ -1,7 +1,30 @@
 # REQUISITOS
 
 ## Referência do Projeto
-[Como criar uma Pokedex com HTML, CSS e JavaScript | Projeto Completo](https://www.youtube.com/watch?v=SjtdH3dWLa8)
+![Pokédex YouTube](./img/pokedex.yt.png)
+![YouTube Badge](https://img.shields.io/badge/YouTube-F00?logo=youtube&logoColor=fff&style=flat) [Como criar uma Pokedex com HTML, CSS e JavaScript | Projeto Completo](https://www.youtube.com/watch?v=SjtdH3dWLa8)
+
+## Lista de Artefatos
+### Requisitos Funcionais
+- [x] RF 1 - ![Buffer Badge](https://img.shields.io/badge/PRESUMIDO-368900?logo=buffer&logoColor=fff&style=flat) Inserir Pokémon
+- [x] RF 2 - Pesquisar Pokémon
+- [x] RF 3 - Listar Pokémon
+- [x] RF 4 - Visualizar Pokémon
+- [ ] RF 5 - ![Buffer Badge](https://img.shields.io/badge/PRESUMIDO-368900?logo=buffer&logoColor=fff&style=flat) Editar Pokémon
+- [ ] RF 6 - ![Buffer Badge](https://img.shields.io/badge/PRESUMIDO-368900?logo=buffer&logoColor=fff&style=flat) Remover Pokémon
+
+### Requisitos Não-Funcionais
+- [x] RNF 1 - Design Responsivo (Usabilidade)
+- [x] RNF 2 - Tratamento de Erros (Confiabilidade)
+
+### Regras de Negócio
+- [x] RGN 1 - Formato das Credenciais
+- [x] RGN 2 - Validação de E-mail
+- [x] RGN 3 - Tempo de Bloqueio
+- [x] RGN 4 - Expiração da Senha
+- [x] RGN 5 - Integração com Outros Sistemas
+
+---
 
 ## Legenda
 * RF - `Requisito Funcional`
@@ -229,23 +252,3 @@
 * O sistema de login deve ser capaz de se integrar com outros sistemas da empresa (e.g., CRM, ERP).
 
 #### RC 11. A integração deve ser baseada em padrões de autenticação abertos (e.g., OAuth 2.0, SAML)
-
----
-
-## Artefatos Elaborados e Entregues
-### Requisitos Funcionais
-- [x] RF 1 - Inserir Pokémon
-- [x] RF 2 - Pesquisar Pokémon
-- [x] RF 3 - Listar Pokémon
-- [x] RF 4 - Visualizar Pokémon
-
-### Requisitos Não-Funcionais
-- [x] RNF 1 - Design Responsivo (Usabilidade)
-- [x] RNF 2 - Tratamento de Erros (Confiabilidade)
-
-### Regras de Negócio
-- [x] RGN 1 - Formato das Credenciais
-- [x] RGN 2 - Validação de E-mail
-- [x] RGN 3 - Tempo de Bloqueio
-- [x] RGN 4 - Expiração da Senha
-- [x] RGN 5 - Integração com Outros Sistemas
