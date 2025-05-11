@@ -1,9 +1,5 @@
 # REQUISITOS
 
-## Como criar uma Pokedex com HTML, CSS e JavaScript | Projeto Completo
-![Pokédex YouTube](./img/pokedex.yt.png)
-![YouTube Badge](https://img.shields.io/badge/YouTube-F00?logo=youtube&logoColor=fff&style=flat) [Como criar uma Pokedex com HTML, CSS e JavaScript | Projeto Completo](https://www.youtube.com/watch?v=SjtdH3dWLa8)
-
 ## Lista de Artefatos
 ### Requisitos Funcionais
 - [x] RF 1 - ![Buffer Badge](https://img.shields.io/badge/PRESUMIDO-368900?logo=buffer&logoColor=fff&style=flat) Inserir Pokémon
