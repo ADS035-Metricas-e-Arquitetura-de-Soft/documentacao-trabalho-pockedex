@@ -110,20 +110,55 @@
 * O sistema deve fornecer sugestões de pesquisa enquanto o usuário digita os critérios (autocomplete), ajudando a encontrar Pokémon com nomes semelhantes ou a corrigir erros de digitação.
 
 
-[![Faculdade Badge](https://img.shields.io/badge/-PRÉ_CONDIÇÕES-gold)]() O sistema deve conter dados de Pokémon para serem pesquisados.
-[![Faculdade Badge](https://img.shields.io/badge/-PRÉ_CONDIÇÕES-gold)]() O usuário deve ter acesso à funcionalidade de pesquisa.
-[![Faculdade Badge](https://img.shields.io/badge/-PÓS_CONDIÇÕES-red)]() O sistema exibe os resultados da pesquisa ao usuário, ou uma mensagem informando que nenhum resultado foi encontrado.
+* [![Faculdade Badge](https://img.shields.io/badge/-PRÉ_CONDIÇÕES-gold)]() O sistema deve conter dados de Pokémon para serem pesquisados.
+* [![Faculdade Badge](https://img.shields.io/badge/-PRÉ_CONDIÇÕES-gold)]() O usuário deve ter acesso à funcionalidade de pesquisa.
+* [![Faculdade Badge](https://img.shields.io/badge/-PÓS_CONDIÇÕES-red)]() O sistema exibe os resultados da pesquisa ao usuário, ou uma mensagem informando que nenhum resultado foi encontrado.
 
 
 #### RF 3. Listar Pokemon
+##### DESCRIÇÃO: O sistema deve permitir que o usuário visualize uma lista de todos os Pokémon cadastrados no sistema.
 
-* O sistema deve bloquear a conta do usuário após um número configurável de tentativas de login inválidas.
-* O sistema deve informar ao usuário que a conta foi bloqueada e o tempo para desbloqueio ou o procedimento para desbloqueá-la.
+* O sistema deve recuperar a lista de Pokémon do banco de dados.
+* O sistema deve exibir a lista de Pokémon na interface do usuário.
+* A lista deve apresentar informações resumidas sobre cada Pokémon, como:
+  * Nome
+  * Número da Pokédex
+  * Tipo(s)
+  * Imagem (opcional, pode ser um thumbnail)
+* Se houver um grande número de Pokémon, o sistema deve implementar paginação ou rolagem infinita para exibir os resultados de forma eficiente.
+* O sistema deve permitir que o usuário selecione um Pokémon da lista para visualizar os detalhes completos (caso de uso "Visualizar Pokémon").
 
-#### RC 10. O sistema deve definir um período de tempo para o bloqueio da conta (e.g., 5 minutos, 1 hora).
+#### RC 8. Ordenação da Lista:
 
-- [x] [![Faculdade Badge](https://img.shields.io/badge/-PRÉ_CONDIÇÕES-gold)]() O sistema deve definir um período de tempo para o bloqueio da conta (e.g., 5 minutos, 1 hora). 
-- [x] [![Faculdade Badge](https://img.shields.io/badge/-PÓS_CONDIÇÕES-red)]() O usuário deve ter inserido credenciais incorretas um número específico de vezes.
+* O sistema deve permitir que o usuário ordene a lista de Pokémon por diferentes critérios.
+* Critérios de ordenação suportados:
+  * Nome (ascendente e descendente)
+  * Número da Pokédex (ascendente e descendente)
+
+#### RC 9. Filtragem da Lista:
+
+* O sistema deve permitir que o usuário filtre a lista de Pokémon por tipo(s).
+* O usuário deve poder selecionar um ou mais tipos para filtrar a lista.
+
+#### RC 10. Tamanho da Página Configurável:
+
+* Se a lista for paginada, o sistema deve permitir que o usuário configure o número de Pokémon exibidos por página.
+* Opções de tamanho de página: 10, 20, 50.
+
+#### RC 11. Exibição de Detalhes Resumidos:
+
+* A lista deve exibir informações resumidas para cada Pokémon, além do nome e número.
+* Informações exibidas:
+  * Miniatura da imagem do Pokémon
+  * Tipo primário do Pokémon
+
+#### RC 12. Opção de Exportar a Lista:
+
+* O sistema deve fornecer uma opção para o usuário exportar a lista de Pokémon para um formato de arquivo (e.g., CSV).
+
+- [x] [![Faculdade Badge](https://img.shields.io/badge/-PRÉ_CONDIÇÕES-gold)]() O sistema deve conter dados de Pokémon para serem listados.
+- [x] ![Faculdade Badge](https://img.shields.io/badge/-PÓS_CONDIÇÕES-red)]() O usuário deve ter acesso à funcionalidade de listar Pokémon.
+- [x] [![Faculdade Badge](https://img.shields.io/badge/-PÓS_CONDIÇÕES-red)]() O sistema exibe a lista de Pokémon ao usuário, ou uma mensagem informando que nenhum Pokémon foi encontrado.
 
 
 #### RF 4. Visualizar Pokémon
