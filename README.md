@@ -16,13 +16,13 @@
 ![YouTube Badge](https://img.shields.io/badge/YouTube-F00?logo=youtube&logoColor=fff&style=flat) [Como criar uma Pokedex com HTML, CSS e JavaScript | Projeto Completo](https://www.youtube.com/watch?v=SjtdH3dWLa8)
 
 ## Roteiro do Projeto
-[Projeto 2 I Projeto de Arquitetura de Software - 2025](https://drive.google.com/file/d/1It5Ti0pBOeCnQNdt8DsQM9URBVZjOZw9/view?usp=drive_link)
+![Google Drive Badge](https://img.shields.io/badge/Google%20Drive-4285F4?logo=googledrive&logoColor=fff&style=flat) [Projeto 2 I Projeto de Arquitetura de Software - 2025](https://drive.google.com/file/d/1It5Ti0pBOeCnQNdt8DsQM9URBVZjOZw9/view?usp=drive_link)
 
 ## Pokedex em Javascript
-[Escopo Completo - Repositório do Projeto de Métricas e Arquitetura de Software](https://github.com/ADS035-Metricas-e-Arquitetura-de-Soft/documentacao-trabalho-pockedex/)
+![GitHub Badge](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=fff&style=flat) [Escopo Completo - Repositório do Projeto de Métricas e Arquitetura de Software](https://github.com/ADS035-Metricas-e-Arquitetura-de-Soft/documentacao-trabalho-pockedex/)
 
 ## Slide da Apresentação
-[Slide da Apresentação - Pokedex](https://www.figma.com/slides/kaHOcv1vBxDDWUir5rze62/apresentacao-pokedex-metricas-de-software?node-id=1-42&t=ikCpQG8OUzVsgdk1-1)
+![Figma Badge](https://img.shields.io/badge/Figma-F24E1E?logo=figma&logoColor=fff&style=flat) [Slide da Apresentação - Pokedex](https://www.figma.com/slides/kaHOcv1vBxDDWUir5rze62/apresentacao-pokedex-metricas-de-software?node-id=1-42&t=ikCpQG8OUzVsgdk1-1)
 
 ---
 
@@ -42,10 +42,12 @@ A proposta deste projeto é criar a documentação do projeto Pokedex, com o obj
 
 ### Lista de Artefatos
 
-- [ ] [Diagramas de Caso de Uso (sem a documentação)](https://github.com/ADS035-Metricas-e-Arquitetura-de-Soft/documentacao-trabalho-pockedex/tree/main/artefatos/05-DiagramasCasosDeUso.md)
-- [ ] [Requisitos](https://github.com/ADS035-Metricas-e-Arquitetura-de-Soft/documentacao-trabalho-pockedex/blob/main/artefatos/01-Requisitos.md)
-- [ ] [Diagramas de Componentes](https://github.com/ADS035-Metricas-e-Arquitetura-de-Soft/documentacao-trabalho-pockedex/blob/main/artefatos/06-DiagramasDeComponentes.md)
-- [ ] [Diagramas de Sequência](https://github.com/ADS035-Metricas-e-Arquitetura-de-Soft/documentacao-trabalho-pockedex/blob/main/artefatos/07-DiagramasDeSequencia.md)
-- [ ] [Arquétipos](https://github.com/ADS035-Metricas-e-Arquitetura-de-Soft/documentacao-trabalho-pockedex/blob/main/artefatos/04-Arquetipos.md)
-- [ ] [Construção de API (Código e Documentação)](https://github.com/ADS035-Metricas-e-Arquitetura-de-Soft/documentacao-trabalho-pockedex/tree/main/artefatos/08-API.md)
-- [ ] [BPMN](https://github.com/ADS035-Metricas-e-Arquitetura-de-Soft/documentacao-trabalho-pockedex/blob/main/artefatos/09-BPMN.md)
+- [ ] [01-Requisitos](https://github.com/ADS035-Metricas-e-Arquitetura-de-Soft/documentacao-trabalho-pockedex/blob/main/artefatos/01-Requisitos.md)
+- [ ] [02-Definição de Componentes](https://github.com/ADS035-Metricas-e-Arquitetura-de-Soft/documentacao-trabalho-pockedex/blob/main/artefatos/02-DefinicaoDeComponentes.md)
+- [ ] [03-Diagrama Arquitetural](https://github.com/ADS035-Metricas-e-Arquitetura-de-Soft/documentacao-trabalho-pockedex/blob/main/artefatos/03-DiagramaArquitetural.md)
+- [ ] [04-Arquétipos](https://github.com/ADS035-Metricas-e-Arquitetura-de-Soft/documentacao-trabalho-pockedex/blob/main/artefatos/04-Arquetipos.md)
+- [ ] [05-Diagramas de Caso de Uso (sem a documentação)](https://github.com/ADS035-Metricas-e-Arquitetura-de-Soft/documentacao-trabalho-pockedex/tree/main/artefatos/05-DiagramasCasosDeUso.md)
+- [ ] [06-Diagramas de Componentes](https://github.com/ADS035-Metricas-e-Arquitetura-de-Soft/documentacao-trabalho-pockedex/blob/main/artefatos/06-DiagramasDeComponentes.md)
+- [ ] [07-Diagramas de Sequência](https://github.com/ADS035-Metricas-e-Arquitetura-de-Soft/documentacao-trabalho-pockedex/blob/main/artefatos/07-DiagramasDeSequencia.md)
+- [ ] [08-Construção de API (Código e Documentação)](https://github.com/ADS035-Metricas-e-Arquitetura-de-Soft/documentacao-trabalho-pockedex/tree/main/artefatos/08-API.md)
+- [ ] [09-BPMN](https://github.com/ADS035-Metricas-e-Arquitetura-de-Soft/documentacao-trabalho-pockedex/blob/main/artefatos/09-BPMN.md)
