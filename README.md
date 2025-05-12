@@ -9,7 +9,7 @@
 
 | **PokeDex**                                                                                                                                                                                                                                                  |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Uma Pokédex em JavaScript é uma aplicação de software que cataloga informações sobre Pokémon.  Ela utiliza JavaScript para criar uma interface interativa que permite aos usuários buscar, visualizar e explorar dados sobre diferentes espécies de Pokémon.  Essa aplicação pode obter dados de uma API externa ou de um banco de dados local e os exibe de forma organizada, incluindo detalhes como nome, imagem, tipo, habilidades e estatísticas de cada Pokémon. A proposta do trabalho é fazer um processo de engenharia reversa do produto |
+| Uma Pokédex em JavaScript é uma aplicação de software que cataloga informações sobre Pokémon.  Ela utiliza JavaScript para criar uma interface interativa que permite aos usuários buscar, visualizar e explorar dados sobre diferentes espécies de Pokémon.  Essa aplicação pode obter dados de uma API externa ou de um banco de dados local e os exibe de forma organizada, incluindo detalhes como nome, imagem, tipo, habilidades e estatísticas de cada Pokémon. **A proposta do trabalho é fazer um processo de engenharia reversa do produto** |
 
 ---
 
