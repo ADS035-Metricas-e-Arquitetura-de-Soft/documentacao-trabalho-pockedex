@@ -23,10 +23,13 @@
 ---
 
 ## Legenda
+* ![Buffer Badge](https://img.shields.io/badge/PRESUMIDO-368900?logo=buffer&logoColor=fff&style=flat) - `Requisito que não está explicito, mas que sopõe-se que exista, ja que o contexto é de um produto de software`
 * RF - `Requisito Funcional`
 * RNF - `Requisito Não Funcional`
 * RGN - `Regra de Negócio`
 * RC - `Requisito Complementar`
+
+---
 
 ### Requisitos Funcionais
 #### RF 1.  Inserir Pokemon
@@ -190,6 +193,7 @@
 - [x] [![Faculdade Badge](https://img.shields.io/badge/-PRÉ_CONDIÇÕES-gold)]() O usuário deve ter inserido credenciais incorretas um número específico de vezes.
 - [x] [![Faculdade Badge](https://img.shields.io/badge/-PÓS_CONDIÇÕES-red)]() O sistema deve impedir o acesso à conta até que o bloqueio seja removido.
 
+---
 
 ### Requisitos Não Funcionais
 
@@ -211,10 +215,11 @@
 * O sistema deve tratar erros de conexão com a API ou outras falhas de comunicação.
 * O sistema deve exibir mensagens de erro claras e compreensíveis para o usuário.
 
+---
 
 ### Regras de Negócio
 
-#### RGN 1. Formato das Credenciais
+#### RGN 1. Unicidade do Nome do Pokémon
 
 * O nome de usuário deve ter no mínimo X caracteres e no máximo Y caracteres.
 * A senha deve ter no mínimo A caracteres, conter pelo menos um caractere maiúsculo, um caractere minúsculo, um número e um caractere especial.
@@ -222,29 +227,81 @@
 #### RC 1. As configurações do sistema de login (e.g., número de tentativas de login, tempo de bloqueio) devem ser facilmente alteráveis.
 
 
-#### RGN 2. Validação de E-mail
+#### RGN 2. Validade dos Tipos de Pokémon
 
 * O e-mail fornecido para recuperação de senha deve ser um e-mail válido.
 
 #### RC 4. O sistema deve verificar a força da senha durante o cadastro e fornecer feedback ao usuário.  
 
 
-#### RGN 3. Tempo de Bloqueio
+#### RGN 3. Intervalo Válido para Atributos
 
 * A conta do usuário deve ser bloqueada por N minutos após M tentativas de login inválidas.
 
 #### RC 10. O sistema deve permitir que o usuário escolha o método de MFA preferido.
 
 
-#### RGN 4. Expiração da Senha
+#### RGN 4. Número da Pokédex Único
+##### DESCRIÇÃO: O número da Pokédex atribuído a cada Pokémon deve ser único dentro do sistema. Não deve ser permitido cadastrar ou atualizar um Pokémon com um número de Pokédex que já esteja atribuído a outro Pokémon.
 
-* A senha do usuário deve expirar a cada D dias, forçando a troca.
+* Ao inserir um novo Pokémon, o sistema deve realizar uma verificação para garantir que o número da Pokédex fornecido pelo usuário (ou gerado automaticamente) não existe no banco de dados.
+* Ao atualizar um Pokémon, se o número da Pokédex for modificado, o sistema deve realizar a mesma verificação de unicidade antes de salvar as alterações.
+* Se o número da Pokédex já existir, o sistema deve exibir uma mensagem de erro clara e informativa ao usuário, impedindo a operação de inserção ou atualização.
 
-#### RC 11. O sistema deve definir um processo para reativar contas inativas. 
+#### RC 11. Geração Automática do Número da Pokédex
+* O sistema deve manter um controle do último número da Pokédex utilizado ou consultar o banco de dados para determinar o próximo número disponível.
+* O número gerado automaticamente deve ser atribuído ao novo Pokémon.
+* O usuário deve ter a opção de aceitar o número gerado ou inserir um número manualmente (sujeito à regra de unicidade).
 
+#### RC 11. Mensagem de Erro Detalhada
+* A mensagem de erro deve incluir o número da Pokédex que já está em uso.
+* A mensagem de erro deve incluir o nome do Pokémon que já possui esse número da Pokédex.
+* A mensagem deve sugerir ações corretivas ao usuário (por exemplo, inserir um número diferente ou pesquisar o Pokémon existente).
 
-#### RGN 5. Integração com Outros Sistemas
+#### RC 11. Configuração do Início da Numeração (Opcional)
+* Um administrador do sistema deve poder definir o valor do primeiro número da Pokédex a ser utilizado.
+* Essa configuração deve ser persistente.
 
-* O sistema de login deve ser capaz de se integrar com outros sistemas da empresa (e.g., CRM, ERP).
+#### RC 11. Validação do Formato (Opcional)
+* O sistema deve verificar se o valor inserido é um número.
+* O sistema deve verificar se o número é um inteiro.
+* O sistema deve verificar se o número é maior que zero.
 
-#### RC 11. A integração deve ser baseada em padrões de autenticação abertos (e.g., OAuth 2.0, SAML)
+#### RGN 5. Formato da Imagem
+##### DESCRIÇÃO: Se o sistema permitir o upload de imagens para os Pokémon, as imagens devem estar em um formato válido (e.g., JPG, PNG) e podem ter restrições de tamanho ou dimensões.
+
+* Ao inserir ou atualizar um Pokémon, se uma imagem for fornecida, o sistema deve verificar se o formato do arquivo é suportado.
+* O sistema pode verificar se o tamanho do arquivo da imagem não excede um limite máximo.
+* O sistema pode verificar se as dimensões da imagem estão dentro de limites aceitáveis.
+
+#### RC 11: Unicidade do Nome do Pokémon
+##### RGN X: O nome de cada Pokémon deve ser único no sistema.
+* Se o usuário tentar inserir um Pokémon com um nome já existente, o sistema deve fornecer sugestões de nomes alternativos (e.g., adicionando um número ao final do nome).
+* O sistema deve exibir uma lista de sugestões ao usuário, permitindo que ele escolha um dos nomes sugeridos ou insira um nome diferente.
+
+#### RC 12: Unicidade do Nome do Pokémon
+##### RGN X: Cada Pokémon deve ter pelo menos um e no máximo dois tipos válidos
+* O sistema deve fornecer uma interface amigável para a seleção de tipos, como uma lista de seleção ou botões de opção, em vez de exigir que o usuário insira os tipos manualmente.
+* A interface deve exibir os ícones ou cores associados a cada tipo para facilitar a identificação.
+
+#### RC 12: Unicidade do Nome do Pokémon
+* O sistema deve validar os tipos selecionados em tempo real, fornecendo feedback imediato ao usuário se ele selecionar um número inválido de tipos.
+
+#### RC 12: Exibição de Intervalos
+* O sistema deve exibir os intervalos válidos para cada atributo na interface do usuário, para que o usuário saiba quais valores são aceitáveis.
+
+#### RC 12: Ajuste Automático de Valores
+* Se o usuário inserir um valor fora do intervalo válido, o sistema deve ajustá-lo automaticamente para o limite mais próximo (mínimo ou máximo) em vez de apenas exibir um erro.
+* O sistema deve fornecer feedback visual ao usuário quando um valor for ajustado automaticamente.
+
+#### RC 12: Geração Automática (Opcional)
+* O sistema deve oferecer a opção de gerar automaticamente o próximo número da Pokédex disponível, em vez de exigir que o usuário o insira manualmente.
+
+#### RC 12: Mensagem de Erro Detalhada
+* Se o usuário tentar inserir um Pokémon com um número de Pokédex já existente, a mensagem de erro deve incluir o nome do Pokémon que já possui esse número.
+
+#### RC 12: Pré-visualização da Imagem
+* O sistema deve exibir uma pré-visualização da imagem que o usuário está tentando enviar antes de salvá-la, para que ele possa verificar se está correta.
+
+#### RC 12: Pré-visualização da Imagem
+* Se o usuário enviar uma imagem em um formato não suportado, o sistema deve tentar convertê-la automaticamente para um formato válido (se possível) em vez de apenas rejeitá-la.
