@@ -15,7 +15,7 @@
 
 ## Lista de Artefatos (Índice)
 
-- [ ] [01-Requisitos](https://github.com/ADS035-Metricas-e-Arquitetura-de-Soft/documentacao-trabalho-pockedex/blob/main/artefatos/01-Requisitos.md){:target="_blank"}
+- [ ] [01-Requisitos](https://github.com/ADS035-Metricas-e-Arquitetura-de-Soft/documentacao-trabalho-pockedex/blob/main/artefatos/01-Requisitos.md)
 - [ ] [02-Definição de Componentes](https://github.com/ADS035-Metricas-e-Arquitetura-de-Soft/documentacao-trabalho-pockedex/blob/main/artefatos/02-DefinicaoDeComponentes.md)
 - [ ] [03-Diagrama Arquitetural](https://github.com/ADS035-Metricas-e-Arquitetura-de-Soft/documentacao-trabalho-pockedex/blob/main/artefatos/03-DiagramaArquitetural.md)
 - [ ] [04-Arquétipos](https://github.com/ADS035-Metricas-e-Arquitetura-de-Soft/documentacao-trabalho-pockedex/blob/main/artefatos/04-Arquetipos.md)
