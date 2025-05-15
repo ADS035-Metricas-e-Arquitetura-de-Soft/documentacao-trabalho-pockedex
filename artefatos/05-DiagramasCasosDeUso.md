@@ -16,37 +16,7 @@
 ![Diagrama de Caso de Uso Geral](https://plantuml.com/download)
 
 ### Script de Caso de Uso Geral [PlantUML]()
-    @startuml
-    left to right direction
-    actor "Usuário" as User
-    
-    rectangle "Sistema Pokédex" {
-      usecase "Manter Pokémon" as ManterPokemon
-      usecase "Manter API" as ManterAPI
-    
-      usecase "Inserir Pokémon" as InserirPokemon
-      usecase "Pesquisar Pokémon" as PesquisarPokemon
-      usecase "Listar Pokémon" as ListarPokemon
-      usecase "Visualizar Pokémon" as VisualizarPokemon
-    
-      usecase "Consultar API" as ConsultarAPI
-      usecase "Validar respostas da API" as ValidarAPI
-      usecase "Mostrar respostas da API" as MostrarAPI
-    }
-    
-    User -- ManterPokemon
-    User -- ManterAPI
-    
-    ManterPokemon .> InserirPokemon : include
-    ManterPokemon .> PesquisarPokemon : include
-    ManterPokemon .> ListarPokemon : include
-    ManterPokemon .> VisualizarPokemon : include
-    
-    ManterAPI .> ConsultarAPI : include
-    ManterAPI .> ValidarAPI : include
-    ManterAPI .> MostrarAPI : include
-    
-    @enduml
+    <|-- s
 
     
 
