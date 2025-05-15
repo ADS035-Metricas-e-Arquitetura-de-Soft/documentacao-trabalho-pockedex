@@ -13,7 +13,7 @@
 
 ### Casos de Uso Geral
 
-![Diagrama de Caso de Uso Geral](./img/01-caso-de-uso-geral-pokedex.svg))
+![Diagrama de Caso de Uso Geral](https://plantuml.com/download)
 
 ### Script de Caso de Uso Geral [PlantUML]()
     @startuml
