@@ -9,11 +9,11 @@
 
 ### Casos de Uso Geral
 
-![Diagrama de Caso de Uso Geral](https://github.com/ADS035-Metricas-e-Arquitetura-de-Soft/documento-requisitos/blob/main/caso-de-uso.svg)
+![Diagrama de Caso de Uso Geral](https://github.com/ADS035-Metricas-e-Arquitetura-de-Soft/documentacao-trabalho-pockedex/blob/main/artefatos/img/caso-de-uso.svg)
 
-### Script de Caso de Uso Geral [PlantUML]()
+### Script de Caso de Uso Geral
     @startuml
-            left to right direction
+    left to right direction
 
     actor Sistema as s
     actor Usuário as u
