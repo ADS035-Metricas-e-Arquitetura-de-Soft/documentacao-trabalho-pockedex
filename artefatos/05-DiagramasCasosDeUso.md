@@ -9,7 +9,7 @@
 
 ### Casos de Uso Geral
 
-![Diagrama de Caso de Uso Geral](https://plantuml.com/download)
+![Diagrama de Caso de Uso Geral](https://github.com/ADS035-Metricas-e-Arquitetura-de-Soft/documento-requisitos/blob/main/caso-de-uso.svg)
 
 ### Script de Caso de Uso Geral [PlantUML]()
     @startuml
