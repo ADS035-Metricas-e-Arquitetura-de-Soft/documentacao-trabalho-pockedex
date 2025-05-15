@@ -16,12 +16,12 @@
 
 ## Lista de Artefatos
 ### Requisitos Funcionais
-- [x] RF 1 - ![Buffer Badge](https://img.shields.io/badge/PRESUMIDO-368900?logo=buffer&logoColor=fff&style=flat) Inserir Pokémon
-- [x] RF 2 - Pesquisar Pokémon
-- [x] RF 3 - Listar Pokémon
-- [x] RF 4 - Visualizar Pokémon
-- [ ] RF 5 - ![Buffer Badge](https://img.shields.io/badge/PRESUMIDO-368900?logo=buffer&logoColor=fff&style=flat) Editar Pokémon
-- [ ] RF 6 - ![Buffer Badge](https://img.shields.io/badge/PRESUMIDO-368900?logo=buffer&logoColor=fff&style=flat) Remover Pokémon
+
+- [ ] RF 1 - ![Buffer Badge](https://img.shields.io/badge/SISTEMA-368900?logo=buffer&logoColor=fff&style=flat) Pesquisar Pokémon
+- [ ] RF 2 - ![Buffer Badge](https://img.shields.io/badge/SISTEMA-368900?logo=buffer&logoColor=fff&style=flat) Visualizar Pokémon
+- [ ] RF 3 - ![Buffer Badge](https://img.shields.io/badge/API-ff0d00?logo=buffer&logoColor=fff&style=flat) Validar Resposta API
+- [ ] RF 4 - ![Buffer Badge](https://img.shields.io/badge/API-ff0d00?logo=buffer&logoColor=fff&style=flat) Consultar API
+- [ ] RF 5 - ![Buffer Badge](https://img.shields.io/badge/API-ff0d00?logo=buffer&logoColor=fff&style=flat) Mostrar Resposta API
 
 ### Requisitos Não-Funcionais
 - [x] RNF 1 - Design Responsivo (Usabilidade)
@@ -37,7 +37,6 @@
 ---
 
 ## Legenda
-* ![Buffer Badge](https://img.shields.io/badge/PRESUMIDO-368900?logo=buffer&logoColor=fff&style=flat) - `Requisito que não está explicito, mas que sopõe-se que exista, ja que o contexto é de um produto de software`
 * RF - `Requisito Funcional`
 * RNF - `Requisito Não Funcional`
 * RGN - `Regra de Negócio`
