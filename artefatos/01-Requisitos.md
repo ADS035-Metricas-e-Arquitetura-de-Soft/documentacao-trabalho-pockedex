@@ -17,11 +17,11 @@
 ## Lista de Artefatos
 ### Requisitos Funcionais
 
-- [ ] RF 1 - ![Buffer Badge](https://img.shields.io/badge/SISTEMA-368900?logo=buffer&logoColor=fff&style=flat) Pesquisar Pokémon
-- [ ] RF 2 - ![Buffer Badge](https://img.shields.io/badge/SISTEMA-368900?logo=buffer&logoColor=fff&style=flat) Visualizar Pokémon
-- [ ] RF 3 - ![Buffer Badge](https://img.shields.io/badge/API-ff0d00?logo=buffer&logoColor=fff&style=flat) Validar Resposta API
-- [ ] RF 4 - ![Buffer Badge](https://img.shields.io/badge/API-ff0d00?logo=buffer&logoColor=fff&style=flat) Consultar API
-- [ ] RF 5 - ![Buffer Badge](https://img.shields.io/badge/API-ff0d00?logo=buffer&logoColor=fff&style=flat) Mostrar Resposta API
+- [x] ![Buffer Badge](https://img.shields.io/badge/SISTEMA-368900?logo=buffer&logoColor=fff&style=flat) RF 1 - Pesquisar Pokémon
+- [x] ![Buffer Badge](https://img.shields.io/badge/SISTEMA-368900?logo=buffer&logoColor=fff&style=flat) RF 2 - Visualizar Pokémon
+- [ ] ![Buffer Badge](https://img.shields.io/badge/API-ff0d00?logo=buffer&logoColor=fff&style=flat) RF 3 - Validar Resposta API
+- [ ] ![Buffer Badge](https://img.shields.io/badge/API-ff0d00?logo=buffer&logoColor=fff&style=flat)RF 4 - Consultar API
+- [ ] ![Buffer Badge](https://img.shields.io/badge/API-ff0d00?logo=buffer&logoColor=fff&style=flat) RF 5 - Mostrar Resposta API
 
 ### Requisitos Não-Funcionais
 - [x] RNF 1 - Design Responsivo (Usabilidade)
